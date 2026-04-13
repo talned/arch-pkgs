@@ -42,5 +42,57 @@ pacstrap -K /mnt $(< base-ia.txt)
 
 Replace `/mnt` with your target mount point.
 
+## Package list: PipeWire + ALSA + BlueZ (Sound & Bluetooth)
 
+This repository provides `sound.txt`: a plain-text package list intended for use with `pacman` after Arch Linux is installed.
+
+**What it includes (high level):**
+- PipeWire audio server + compatibility layers (ALSA, PulseAudio, JACK)
+- WirePlumber session manager
+- ALSA utilities/tools (mixer, troubleshooting)
+- Bluetooth stack (BlueZ) for wireless headsets
+- A TUI mixer (`pulsemixer`) for quick volume/device control
+
+### File
+
+- `sound.txt` — one package name per line
+
+### Installing the packages
+
+```sh
+sudo pacman -S --needed $(< sound.txt)
+```
+
+### Enable Bluetooth (for headsets)
+
+```sh
+sudo systemctl enable --now bluetooth
+```
+
+### Ensure PipeWire is running (per-user)
+
+On most setups this starts automatically. If it doesn’t:
+
+```sh
+systemctl --user enable --now wireplumber
+systemctl --user enable --now pipewire pipewire-pulse
+```
+
+### Pair/connect a headset (bluetoothctl)
+
+```sh
+bluetoothctl
+```
+
+Common commands inside `bluetoothctl`:
+
+```text
+power on
+agent on
+default-agent
+scan on
+pair <MAC>
+trust <MAC>
+connect <MAC>
+```
 

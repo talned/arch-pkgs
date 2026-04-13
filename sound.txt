@@ -1,10 +1,10 @@
 pipewire
-alsa-tools
-alsa-utils
-pulsemixer
+wireplumber
 pipewire-alsa
-pipewire-audio
-pipewire-jack
 pipewire-pulse
-pipewire-session-manager
-pipewire-zeroconf
+pipewire-jack
+alsa-utils
+alsa-tools
+bluez
+bluez-utils
+pulsemixer
