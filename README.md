@@ -96,3 +96,40 @@ trust <MAC>
 connect <MAC>
 ```
 
+## Package list: i3wm + X11 + PipeWire audio control + clipboard + theming (graphical)
+
+This repository provides `env-base.txt`: a plain-text package list intended for use with `pacman` after Network and Sound is working on arch linux.
+
+
+**What it includes (high level):**
+- Minimal i3 window manager setup (i3-wm + dmenu launcher)
+- Modern status bar (`i3status-rust`) with flexible system info
+- Terminal emulator (`kitty`)
+- Audio control (PipeWire/PulseAudio client tools: `libpulse`, `pavucontrol`, `playerctl`)
+- Notification daemon (`dunst`)
+- Screenshots and image annotation (`flameshot`)
+- Color picking and theme control (`gpick`, `nwg-look`)
+- Display management (`arandr`, `autorandr`, `xorg-xrandr`, `xorg-xrdb`)
+- Power/brightness controls (`brightnessctl`)
+- Clipboard management with history (`clipmenu`, `xclip`, `xsel`)
+- Polkit authentication GUI (`mate-polkit`)
+- Secrets/keyring integration (`gnome-keyring`)
+- Lock screen (`i3lock-fancy-git`)
+- Compositor for transparency (`picom`)
+- Browser and media (`firefox`, `spotify`)
+- X11 core utilities and input drivers (`xlibre`, `xlibre-input-mouse`, `xlibre-input-keyboard`, `xorg-xinit`, `xorg-xset`, `xorg-xhost`)
+- GTK settings support (`xsettingsd`)
+- Command line JSON manipulation (`jq`)
+
+
+### File
+
+- `base-env.txt` — one package name per line
+
+### Installing the packages
+
+```sh
+sudo pacman -S --needed $(< base-env.txt)
+```
+
+
