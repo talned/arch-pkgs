@@ -1,0 +1,10 @@
+pipewire
+alsa-tools
+alsa-utils
+pulsemixer
+pipewire-alsa
+pipewire-audio
+pipewire-jack
+pipewire-pulse
+pipewire-session-manager
+pipewire-zeroconf
