@@ -32,9 +32,10 @@ mesa
 intel-ucode
 vulkan-intel
 intel-media-driver
-xdg-utils
+libva-intel-driver
 lib32-vulkan-intel
 intel-gpu-tools
+xdg-utils
 android-tools
 android-udev
 efibootmgr
