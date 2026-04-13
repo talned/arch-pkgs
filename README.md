@@ -1,4 +1,4 @@
-# arch-pkgs
+# Welcome to arch-pkgs
 
 ## Package list: base + Intel + Android (non-graphical)
 
