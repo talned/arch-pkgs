@@ -13,6 +13,7 @@ zip
 unzip
 wget
 man-db
+fastfetch
 glow
 zoxide
 lsd
