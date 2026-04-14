@@ -32,3 +32,4 @@ picom
 nwg-look
 jq
 network-manager-applet
+dex
