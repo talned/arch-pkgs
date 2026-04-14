@@ -33,3 +33,4 @@ nwg-look
 jq
 network-manager-applet
 dex
+github-cli
