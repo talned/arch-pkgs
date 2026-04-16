@@ -1,0 +1,13 @@
+qemu-full --assume-installed=edk2-arm
+virt-viewer
+virt-manager
+bridge-utils
+spice-vdagent
+qemu-guest-agent
+dnsmasq
+libvirt
+usbredir
+virtiofsd
+swtpm
+vulkan-virtio
+qemu-hw-display-virtio-gpu
