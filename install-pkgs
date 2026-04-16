@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+sudo pacman -Sy --needed $(< $1)
