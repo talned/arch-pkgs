@@ -11,3 +11,4 @@ virtiofsd
 swtpm
 vulkan-virtio
 qemu-hw-display-virtio-gpu
+ipcalc
