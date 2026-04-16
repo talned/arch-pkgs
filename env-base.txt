@@ -24,6 +24,7 @@ xorg-xset
 xorg-xhost
 xorg-xrdb
 xorg-xrandr
+xdotool
 xsel
 xclip
 clipmenu
