@@ -1,0 +1,2 @@
+steam
+proton-ge-custom-bin --assume-installed=lib32-gst-plugins-base-libs
