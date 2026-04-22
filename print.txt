@@ -1,0 +1,8 @@
+ghostscript
+cups
+system-config-printer
+gutenprint
+cups-pk-helper
+ipp-usb
+cups-filters
+
