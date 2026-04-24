@@ -19,6 +19,7 @@ zoxide
 lsd
 fzf
 bat
+tree
 awesome-terminal-fonts
 sudo
 freetype2
