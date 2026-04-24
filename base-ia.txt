@@ -20,6 +20,7 @@ lsd
 fzf
 bat
 tree
+trash-cli
 awesome-terminal-fonts
 sudo
 freetype2
