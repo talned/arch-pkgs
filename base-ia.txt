@@ -43,3 +43,4 @@ android-tools
 android-udev
 efibootmgr
 grub
+btrfs-progs
