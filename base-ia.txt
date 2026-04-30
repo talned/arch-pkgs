@@ -44,3 +44,4 @@ android-udev
 efibootmgr
 grub
 btrfs-progs
+zstd
