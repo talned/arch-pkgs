@@ -38,6 +38,7 @@ libva-intel-driver
 lib32-vulkan-intel
 intel-gpu-tools
 xdg-utils
+xorg
 android-tools
 android-udev
 efibootmgr
