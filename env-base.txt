@@ -16,9 +16,7 @@ firefox
 spotify
 arandr
 autorandr
-xlibre
-xlibre-input-mouse
-xlibre-input-keyboard
+xf86-input-libinput
 xorg-xinit
 xorg-xset
 xorg-xhost
