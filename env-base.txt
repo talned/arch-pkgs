@@ -4,6 +4,7 @@ flameshot
 gpick
 i3status-rust
 libpulse
+libnotify
 playerctl
 dunst
 mate-polkit

@@ -1,0 +1,16 @@
+cantarell-fonts
+gnu-free-fonts
+noto-fonts
+noto-fonts-cjk
+noto-fonts-emoji
+noto-fonts-extra
+ttf-liberation
+ttf-font-awesome
+ttf-ms-fonts
+ttf-jetbrains-mono
+ttf-jetbrains-mono-nerd
+ttf-ibm-plex
+ttf-ubuntu-font-family
+ttf-fira-code
+nerd-fonts
+
