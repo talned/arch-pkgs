@@ -34,3 +34,5 @@ jq
 network-manager-applet
 dex
 github-cli
+qt6ct
+kvantum
